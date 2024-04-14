@@ -1,0 +1,8 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.0">
+  <PropertyGroup>
+    <OutputName>$(MSBuildProjectName)</OutputName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoUpdateExample\AutoUpdateExample.vcxproj" />
+  </ItemGroup>
+</Project>
